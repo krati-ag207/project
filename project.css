@@ -101,8 +101,7 @@ tr:hover{
 #img{
     float: right;
     border-style: solid;
-    border-radius: 3px;
-    border-width: 2.5px;
+    border-radius: 10px;
 }
 
 
