@@ -8,8 +8,12 @@
 header{
     background-image: url(4.jpg);
     height: 100vh;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+.nav{
+    padding:0px;
 }
 main{
     background-color: lightgray;
@@ -38,12 +42,13 @@ a:hover{
 }
 .title{
     position: left;
+    padding-top:0;
 }
 .title h1{
     font-size: 100px;
     color: white;
     font-family: 'Suez One', serif;
-    padding-top: 10px;
+    padding-top:0;
 }
 .title h2{
     font-size: 50px;
@@ -103,9 +108,3 @@ tr:hover{
     border-style: solid;
     border-radius: 10px;
 }
-
-
-
-
-
-
